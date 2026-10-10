@@ -11,7 +11,7 @@ export const profile = {
   phones: ["+91 70038 53544", "+91 90939 03076"],
   location: "New Garia, Kolkata — India",
   coordinates: "22.4708° N / 88.4012° E",
-  availability: "Open to junior SDE & full-stack roles",
+  availability: "Open to Software Development & MERN Stack Developer Roles",
   about:
     "Aspiring full-stack developer focused on the MERN stack — known for a strong design sense, quick learning, and hands-on experience across both frontend and backend. I turn ideas into real, usable products and grow through collaborative, real-world builds.",
   socials: [
@@ -102,6 +102,18 @@ export const projects = [
 export const experience = [
   {
     id: "01",
+    role: "Software Developer",
+    type: "Internship",
+    company: "ReferralWorld Careers",
+    period: "Aug '26 - Present",
+    location: "Bangalore · Remote",
+    tags: ["Company Website","Software Development", "MERN", "Design", "Research"],
+    points: [
+      "Contributing to the development of ReferralWorld Careers’ Career Connect Marketplace, building responsive user interfaces using React.js, Vite, and Tailwind CSS.","Developing features that connect job seekers with experienced professionals for career guidance, resume reviews, mock interviews, mentorship, and referral assistance.",
+    ],
+  },
+  {
+    id: "02",
     role: "Junior Full Stack Developer",
     type: "Internship",
     company: "Eduruz",
@@ -113,6 +125,7 @@ export const experience = [
       "Built responsive, dynamic user interfaces with React.js & Tailwind CSS, wired to RESTful APIs designed with Node.js, Express.js & MongoDB.",
     ],
   },
+  
 ];
 
 export const education = [
@@ -144,6 +157,15 @@ export const education = [
 
 export const achievements = [
   {
+    id: "03",
+    count: 0,
+    suffix: "",
+    display: "02",
+    title: "MERN internship earned",
+    description:
+      "Selected as a Junior Full Stack Developer Intern at Eduruz, contributing to production-grade features.",
+  },
+  {
     id: "01",
     count: 120,
     suffix: "+",
@@ -159,13 +181,5 @@ export const achievements = [
     description:
       "On-site Coordinator at Smart India Hackathon — ran technical operations & logistics through a 36-hour national event.",
   },
-  {
-    id: "03",
-    count: 0,
-    suffix: "",
-    display: "01",
-    title: "MERN internship earned",
-    description:
-      "Selected as a Junior Full Stack Developer Intern at Eduruz, contributing to production-grade features.",
-  },
+  
 ];
